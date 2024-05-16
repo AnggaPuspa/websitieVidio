@@ -1,0 +1,55 @@
+.container {
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  background-color: #cc0000;
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.videoContainer {
+  flex: 3;
+  padding: 20px;
+}
+
+.videoPlayer {
+  width: 100%;
+  height: auto;
+}
+
+.recommendations {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.recommendation {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.thumbnail {
+  width: 120px;
+  height: auto;
+}
+
+.videoInfo h4 {
+  margin: 0;
+}
+
